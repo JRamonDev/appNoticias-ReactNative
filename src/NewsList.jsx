@@ -47,16 +47,21 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 16,
+        backgroundColor: '#332F2C'
     },
     newsItem: {
         marginBottom: 16,
     },
-    tittle: {
+    title: {
         fontSize: 18,
         fontWeight: 'bold',
+        color: 'black',
+        backgroundColor: '#61DBFB',
+        borderRadius: 5,
     },
     description: {
         fontSize: 14,
+        color: 'white',
     },
 });
 
