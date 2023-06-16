@@ -8,7 +8,7 @@ const NewsDetail = ({ navigation }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>{newsItem.tittle}</Text>
+            <Text style={styles.title}>{newsItem.title}</Text>
             <Text style={styles.description}>{newsItem.description}</Text>
 
         </View>
@@ -19,16 +19,20 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 16,
+        backgroundColor: '#332F2C'
     },
     newsItem: {
         marginBottom: 16,
     },
-    tittle: {
+    title: {
         fontSize: 18,
         fontWeight: 'bold',
+        color: 'white',
+        marginBottom: 10,
     },
     description: {
         fontSize: 14,
+        color: 'white',
     },
 })
 
